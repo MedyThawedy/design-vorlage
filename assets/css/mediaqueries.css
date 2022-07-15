@@ -1,7 +1,60 @@
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
-  }
+@media only screen and (max-width: 1080px) {
+ 
+}
 
-  
+@media only screen and (max-width:500px) {
+ 
+    body > header > nav > div.divNavLeft > a:nth-child(1),a:nth-child(2), a:nth-child(3), a:nth-child(4) {
+        font-size: 0.7rem;
+    }
+
+    .divNavLeft {
+        flex-direction: column;
+    }
+
+    .divNavMiddile h1{
+        font-size: 1.1rem;
+    }
+
+    .divNavRight {
+        font-size: 0.7rem;
+        height: 4vh;
+    }
+
+    body > main > article.article1 > h2 {
+        font-size: 1.5rem;
+    }
+
+    body > main > article.article2 > img {
+        height: 34vh;
+    }
+
+    .divArticle4{
+        flex-direction: column;
+    }
+
+    .divArticle5{
+        flex-direction: column;
+    }
+
+    .pTitleArt5 {
+        font-size: 1.5rem;
+    }
+
+    .pContenArt5 {
+        font-size: 0.7rem;
+    }
+
+    .divLeftContentArt5 {
+        margin-top: 2vh;
+    }
+
+    body > main > article.article5 > div > div.divRightArticle5 > img { 
+        height: 54vh;
+    }
+
+    body > main > article.article6  {
+        margin-top: 48vh;
+    } 
+}
+
