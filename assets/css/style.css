@@ -112,6 +112,7 @@ body > main > article.article3 > div > div.divLeftArticle3 > p.pArticle3 {
 .titleDiliverablesArticle4 {
     font-size: 3rem;
     font-weight: bold;
+    font-family:'thiemposHeadline-semibold';
 }
 
 .pTitleArticle4 {
@@ -184,10 +185,6 @@ body > main > article.article5 > div > div.divRightArticle5 > img {
 .pContentArt5 {
     font-family: 'theinhardt-lt';
     color:#848689;
-}
-
-body > main > article.article5 > div > div.divLeftArticle5 > div > p:nth-child(2), p:nth-child(3), p:nth-child(4) {
-    padding-left:2%;
 }
 
 body > main > article.article5 > div > div.divLeftArticle5 > div > p:nth-child(2) {
