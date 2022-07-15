@@ -234,7 +234,7 @@ body > main > article.article6 > div {
 
 .divArticle7 {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
 }
 
 .pArt8 {
