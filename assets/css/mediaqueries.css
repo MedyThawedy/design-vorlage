@@ -56,5 +56,28 @@
     body > main > article.article6  {
         margin-top: 48vh;
     } 
+
+    body > main > article.article7 > div > div > img {
+        height: 23vh;
+    }
+
+    .divArticle8{
+        flex-direction: column;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
+    .divRightArt8 img {
+        height: 24vh;
+        margin-top: -17vh;
+    }
+
+    .divSeparator {
+           margin-top: 1vh;
+    }
+
+    body > footer {
+       margin-top:1vh;
+    }
 }
 
