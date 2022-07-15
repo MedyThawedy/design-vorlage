@@ -34,6 +34,12 @@ body > header > nav div a:visited {
     text-decoration: none;
 }
 
+body > header > nav > div.divNavLeft > a:nth-child(1), a:nth-child(2), a:nth-child(3), a:nth-child(4)  {
+    margin-left:10px;
+    font-size: 0.9rem;
+}
+
+
 .divNavRight {
     display:flex;
     gap: 10px;
@@ -117,6 +123,7 @@ body > main > article.article3 > div > div.divLeftArticle3 > p.pArticle3 {
 
 .pTitleArticle4 {
     font-family:'graphik-medium';
+    font-weight: bold;
 }
 
 .pTextArticle4{
@@ -185,6 +192,7 @@ body > main > article.article5 > div > div.divRightArticle5 > img {
 .pContentArt5 {
     font-family: 'theinhardt-lt';
     color:#848689;
+    width: 80%;
 }
 
 body > main > article.article5 > div > div.divLeftArticle5 > div > p:nth-child(2) {
@@ -197,10 +205,12 @@ body > main > article.article5 > div > div.divLeftArticle5 > div > p:nth-child(5
 
 body > main > article.article5 > div > div.divLeftArticle5 > div > p:nth-child(6){
     margin-top: 2vh;
+    width: 80%;
 }
 
 .article6 h2{
     font-family: 'tiemposHeadline-semibold';
+    font-size: 2.3rem;
 }
 
 body > main > article.article6 {
