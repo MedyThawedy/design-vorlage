@@ -1,0 +1,20 @@
+@font-face {
+    font-family: graphik-medium;
+    src: url(../fonts/Graphik-Medium.ttf);
+}
+
+@font-face {
+    font-family: graphik-regular;
+    src: url(../fonts/Graphik-Regular.woff);
+}
+
+@font-face {
+    font-family: theinhardt-lt;
+    src: url(../fonts/Theinhardt-Lt.woff);
+}
+
+
+@font-face {
+    font-family: tiemposheadline-semibold;
+    src: url(../fonts/TiemposHeadline-Semibold.woff);
+}
