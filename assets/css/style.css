@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+header {
+    margin-top: 3vh;
+}
 
 .divNavLeft a {
     font-family: 'graphik-regular';
@@ -11,6 +14,7 @@
 
 .divNavRight a {
     font-family: 'graphik-medium';
+ /*   margin-bottom: 1px; */
 }
 
 .divNavMiddile h1 {
@@ -19,40 +23,56 @@
 
 
 body > header > nav {
-display: flex;
-justify-content: space-around;
-margin-top:1vh;
+/*display: flex;*/
+/*justify-content: space-around;*/
+margin-top:2vh;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+justify-items: center;
+margin-left: auto;
+margin-right: auto;
+width: 95%;
+align-items: baseline;
 }
 
-body > header > nav > div:nth-child(1) {
-    gap: 10px;
-    display: flex;
-} 
 
 body > header > nav div a:visited {
     color:#2B2C2E;
     text-decoration: none;
 }
 
-body > header > nav > div.divNavLeft > a:nth-child(1), a:nth-child(2), a:nth-child(3), a:nth-child(4)  {
+body > header > nav > div.divNavLeft > a:nth-child(1), a:nth-child(2), a:nth-child(3), a:nth-child(4), a:nth-child(5) {
     margin-left:10px;
     font-size: 0.9rem;
 }
 
 
 .divNavRight {
-    display:flex;
-    gap: 10px;
+
+    margin: 5px;
+}
+
+.divNavRight a{
+    display: block;
+    /*width: 115px;*/
+    text-align: center;
+    border-radius: 5px;
+    line-height: 25px;
     border:1px solid #2B2C2E;
-    border-radius: 3px;
-    padding-left: 3%;
-    padding-right: 3%;
+    border-radius: 3px;   
+    padding-left: 3vw; 
+    padding-right: 3vw; 
+  /*  padding-top: 1px; */
 }
 
 header nav div a {
     color:#2B2C2E;
     text-decoration: none;
     margin-top:1vh;
+}
+
+header nav div a:hover{
+    font-weight: 900;
 }
 
 .article1 h2{
@@ -327,4 +347,8 @@ body > footer > div > div > div > p {
 
 .pBottom {
     color: #848689;
+}
+
+.icon {
+    display: none;
 }

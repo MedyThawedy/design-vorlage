@@ -15,7 +15,12 @@
     <!-- Header  -->
     <header>
         <nav>
-            <div class="divNavLeft"> <a href="">Home</a><a href="">About</a><a href="">Contact</a><a href="">#Hacks</a>
+            <div class="divNavLeft" id="myNav"> 
+                <div id="divImgIcon"><img src="./assets/img/menu.png" id="imgIcon" class="icon" alt="" onclick="displayMenu()"> </div>  
+            <a class="clsNavItem" href="#" onclick="hideIconMenu()">Home</a>
+            <a class="clsNavItem" href="#" onclick="hideIconMenu()">About</a>
+            <a class="clsNavItem" href="#" onclick="hideIconMenu()">Contact</a>
+            <a class="clsNavItem" href="#" onclick="hideIconMenu()">#Hacks</a>
             </div>
             <div class="divNavMiddile">
                 <h1>Design Critique</h1>
@@ -24,7 +29,9 @@
         </nav>
     </header>
 
-    <main>
+
+    <main >
+
         <!-- Article 1 -->
         <article class="article1">
             <h2>Get your design critiqued by world-class designers</h2>
@@ -116,6 +123,8 @@
         </article>
 
     </main>
+  
+
        <div class="divSeparator"> </div>  
     <footer>
         <div class="divFooter">
@@ -128,7 +137,7 @@
             
       
     </footer>
-
+    <script src="./assets/js/main.js"></script>
 </body>
 
 </html>
