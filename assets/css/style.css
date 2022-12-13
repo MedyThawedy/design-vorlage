@@ -84,6 +84,8 @@ body > main > article.article1 {
     justify-content: center;
     font-size: 1.15rem;
     margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 body > main > article.article2 > img {

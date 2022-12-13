@@ -98,7 +98,7 @@
 }
 
 /*1080px*/
-@media only screen and (max-width: 820px) and (min-width: 391px) {
+@media only screen and (max-width: 820px) and (min-width: 756px) {
   p.pArticle3 {
     font-size: 0.8rem;
   }
@@ -147,6 +147,8 @@
 
 .article5 {
     width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .pTitleArt5{
@@ -208,11 +210,13 @@
   }
 
   body > main > article.article2 > img {
-    height: 42vh;
+    height: 31vh;
   }
 
   .article4{
     width:88%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 .article1, .article2 {
@@ -220,7 +224,7 @@
 }
 
 .article5 {
-  height: 54vh;
+  height: 46vh;
   margin-top: 5vh;
 }
 
@@ -255,12 +259,14 @@
 }
 
   body > main > article.article5 > div > div.divRightArticle5 > img {
-    height: 35vh !important;
+    height: 30vh !important;
   }
 
   body > main > article.article6 {
     margin-top: 5vh;
     width:80%;
+    margin-left: auto;
+    margin-right: auto;
   }
  
 
@@ -284,7 +290,7 @@
     margin-right: auto;
     min-height: 26.5vh;
     margin-top: 5vh;
-    width: 84%;
+    width: 53%;
   }
 
   .article8{
@@ -293,7 +299,7 @@
 
   .divArticle8{
     display: block;
-    width: 100%;
+    width: 92%;
   }
 
   .divRightArt8 img {
@@ -302,8 +308,247 @@
 
 .pArt8 {
   font-size: 0.8rem;
-  width: 40%;
+  width: 36%;
   line-height: 1rem;
+  margin-top: -72px;
+  margin-left: 11px;
+}
+
+.footerQuestion > h2 {
+  font-size: 1rem;
+}
+
+.footerQuestion{
+  text-align: center;
+}
+
+.pBottom{
+  font-size: 0.8rem;
+}
+
+.divBottom img{
+  height:5vh;
+}
+
+
+}
+
+@media only screen and (max-width: 757px) and (min-width: 392px) {
+  p.pArticle3 {
+    font-size: 0.8rem;
+  }
+  .pDollar {
+    font-size: 1rem;
+  }
+  .pFlatRate {
+    font-size: 0.8rem;
+  }
+  .article2{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .article3 {
+    margin-top: 3vh;
+  }
+
+  .divArticle4{
+    margin-top: 5vh;
+  }
+  body > main > article.article4 > div > div.divLeftArticle4 > img {
+    height: 38vh;
+}
+
+.divLeftArticle4{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.titleDiliverablesArticle4{
+    font-size: 1rem;
+}
+
+.pTitleArticle4, .pTextArticle4{
+    font-size: 0.8rem;
+}
+
+.pTextArticle4{
+  width: 90%;
+}
+.divRightArticle4 {
+    width: 75%;
+}
+
+.article5 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pTitleArt5{
+    font-size: 1rem;
+}
+
+.pContentArt5{
+    font-size: 0.8rem;   
+}
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .icon {
+    display: flex;
+    /* justify-content: end; */
+    width: 31px;
+    cursor: pointer;
+    height: 20px;
+    margin-top: 9px;
+    padding-top: 5px;
+  }
+
+  #myNav a {
+    display: none;
+  }
+
+  header {
+    display: flex;
+    justify-content: baseline !important;
+  }
+  body > header > nav > div.divNavLeft > a:nth-child(1),
+  a:nth-child(2),
+  a:nth-child(3),
+  a:nth-child(4),
+  a:nth-child(5) {
+    font-size: 0.7rem;
+  }
+
+  .divNavLeft {
+    flex-direction: column;
+  }
+
+  .divNavMiddile h1 {
+    font-size: 1rem;
+  }
+
+  .divNavRight {
+    font-size: 0.7rem;
+    height: 4vh;
+  }
+
+  body > main > article.article1 > h2 {
+    font-size: 1rem;
+  }
+
+  body > main > article.article2 > img {
+    height: 20vh;
+  }
+
+  .article4{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.article1, .article2 {
+    width: 80%;
+}
+
+.article5 {
+  background-color: #f1f0f5;
+  margin-top: 5vh;
+}
+
+  .divArticle4 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .divArticle5 {
+   display:grid;
+    width: 100%;
+  }
+
+  .divRightArticle5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pContenArt5 {
+    font-size: 0.7rem;
+  }
+
+  .divLeftContentArt5 {
+    margin-top: 2vh;
+  }
+
+  .article6 h2 {
+    font-size: 1rem;
+}
+
+.pArticle6{
+  font-size:0.8rem;
+}
+
+  body > main > article.article5 > div > div.divRightArticle5 > img {
+    height: 30vh !important;
+  }
+
+  body > main > article.article6 {
+    margin-top: 5vh;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+ 
+
+  .divSeparator {
+    margin-top: 3vh;
+  }
+
+  body > footer {
+    margin-top: 1vh;
+  }
+
+  body > main > article.article7 > div > div > img {
+  display: none;
+  }
+
+  .article7{
+    background-image: url(../img/twentyeight.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 26.5vh;
+    margin-top: 5vh;
+    width: 53%;
+  }
+
+  .article8{
+    margin-left: auto;
+  }
+
+  .divArticle8{
+    display: block;
+    width: 92%;
+  }
+
+  .divRightArt8 img {
+    display: none;
+}
+
+.pArt8 {
+  font-size: 0.8rem;
+  width: 36%;
+  line-height: 1rem;
+  margin-top: -72px;
+  margin-left: 11px;
 }
 
 .footerQuestion > h2 {
@@ -564,6 +809,7 @@ body > main > article.article6 > div {
 
   .article8{
     margin-left: auto;
+    margin-bottom: 1vh;
   }
 
   .divArticle8{
@@ -576,11 +822,10 @@ body > main > article.article6 > div {
 }
 
 .pArt8 {
-  
   line-height: 1rem;
   font-size: 0.5rem;
-  width: 50%;
-  margin-top: -130px;
+  width: 53%;
+  margin-top: -106px;
 }
 
 .footerQuestion > h2 {
@@ -605,16 +850,13 @@ body > main > article.article6 > div {
   margin-top: 3vh;
 }
 body{
-  height: 245vh;
+  height: 235vh;
 }
 }
-
 
 @media only screen and (max-width: 973px) {
   body > main > article.article5 > div > div.divRightArticle5 > img {
     height: 45vh;
 }
-
-
 
 }
