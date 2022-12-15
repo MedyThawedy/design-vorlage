@@ -1,4 +1,14 @@
 
+/*divNavLeft*/
+@media only screen and (min-width: 821px){
+  .divNavLeft{
+    display: flex;
+  }
+  .clsNavItem{
+    display: block !important;
+  }
+}
+
 @media only screen and (max-width: 500px) {
   body > header > nav > div.divNavLeft > a:nth-child(1),
   a:nth-child(2),
